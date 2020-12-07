@@ -3,10 +3,10 @@ version: 2
 sources:
   - name: web_app
     tables:
-      - name: delete_me
+      - name: delete_me_2
         description: '(not set)'
       - name: test_event
         description: 'A test event for RudderStack to be processed by dbt.'
-      columns:
+        columns:
           - name: prop
             description: 'A test property.
