@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: web_app
     tables:
-      - name: delete_me_2
+      - name: delete_me
         description: '(not set)'
       - name: test_event
         description: 'A test event for RudderStack to be processed by dbt.'
