@@ -4,7 +4,7 @@ sources:
   - name: web_app
     tables:
       - name: test_event
-        description: '(from package) The test event I send.'
+        description: '(from package 2) The test event I send.'
         columns:
           - name: prop
-            description: '(from package) The value of the property.'
+            description: '(from package 2) The value of the property.'
