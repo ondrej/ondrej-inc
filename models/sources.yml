@@ -4,83 +4,9 @@ version: 2
       - name: web_app
         tables:
         
-    - name: E
-      description: '(not set)'
-    - name: D
-      description: '(not set)'
-    - name: Mail Button Clicked
-      description: '(not set)'
-    - name: Application Launched
-      description: 'What's up?'
-    - name: Process Started
-      description: '.Called when the process starts.'
+    - name: test_event
+      description: 'A test event for RudderStack to be processed by dbt.'
     columns:
     
-      - name: availableProcessors
-        description: 'The number of available processors.
-      - name: deleteMe
-        description: '(not set)
-    - name: Another Wrong User
-      description: '(not set)'
-    columns:
-    
-      - name: wrong-template-prop
-        description: '(not set)
-      - name: wrong_user
-        description: '(not set)
-    - name: A
-      description: '(not set)'
-    - name: Snackbar Displayed
-      description: '(not set)'
-    columns:
-    
-      - name: length
-        description: '(not set)
-      - name: text
-        description: '(not set)
-    - name: Activity Created
-      description: '(not set)'
-    columns:
-    
-      - name: title
-        description: '(not set)
-    - name: K
-      description: '(not set)'
-    - name: Item Purchased
-      description: 'Called when a user purchases an item.'
-    columns:
-    
-      - name: revenue
-        description: '(not set)
-      - name: shippingMethod
-        description: '(not set)
-    - name: H
-      description: '(not set)'
-    - name: I
-      description: '(not set)'
-    - name: Options Opened
-      description: '(not set)'
-    - name: F
-      description: '(not set)'
-    - name: C
-      description: '(not set)'
-    - name: View Loaded
-      description: 'Called when a view is loaded.'
-    columns:
-    
-      - name: name
-        description: 'The view's name.
-    - name: Options Item Selected
-      description: '(not set)'
-    columns:
-    
-      - name: title
-        description: '(not set)
-      - name: id
-        description: '(not set)
-    - name: J
-      description: '(not set)'
-    - name: G
-      description: '(not set)'
-    - name: B
-      description: '(not set)'
+      - name: prop
+        description: 'A test property.
