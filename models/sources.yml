@@ -1,105 +1,86 @@
+version: 2
 
-      - name: E
-        description: 'null'
-        columns:
-          
-      - name: D
-        description: 'null'
-        columns:
-          
-      - name: Mail Button Clicked
-        description: 'null'
-        columns:
-          
-      - name: Application Launched
-        description: 'What's up?'
-        columns:
-          
-      - name: Process Started
-        description: '.Called when the process starts.'
-        columns:
-          
+    sources:
+      - name: web_app
+        tables:
+        
+    - name: E
+      description: '(not set)'
+    - name: D
+      description: '(not set)'
+    - name: Mail Button Clicked
+      description: '(not set)'
+    - name: Application Launched
+      description: 'What's up?'
+    - name: Process Started
+      description: '.Called when the process starts.'
+    columns:
+    
       - name: availableProcessors
         description: 'The number of available processors.
       - name: deleteMe
-        description: 'null
-      - name: Another Wrong User
-        description: 'null'
-        columns:
-          
+        description: '(not set)
+    - name: Another Wrong User
+      description: '(not set)'
+    columns:
+    
       - name: wrong-template-prop
-        description: 'null
+        description: '(not set)
       - name: wrong_user
-        description: 'null
-      - name: A
-        description: 'null'
-        columns:
-          
-      - name: Snackbar Displayed
-        description: 'null'
-        columns:
-          
+        description: '(not set)
+    - name: A
+      description: '(not set)'
+    - name: Snackbar Displayed
+      description: '(not set)'
+    columns:
+    
       - name: length
-        description: 'null
+        description: '(not set)
       - name: text
-        description: 'null
-      - name: Activity Created
-        description: 'null'
-        columns:
-          
+        description: '(not set)
+    - name: Activity Created
+      description: '(not set)'
+    columns:
+    
       - name: title
-        description: 'null
-      - name: Item Purchased
-        description: 'Called when a user purchases an item.'
-        columns:
-          
+        description: '(not set)
+    - name: K
+      description: '(not set)'
+    - name: Item Purchased
+      description: 'Called when a user purchases an item.'
+    columns:
+    
       - name: revenue
-        description: 'null
+        description: '(not set)
       - name: shippingMethod
-        description: 'null
-      - name: H
-        description: 'null'
-        columns:
-          
-      - name: I
-        description: 'null'
-        columns:
-          
-      - name: Options Opened
-        description: 'null'
-        columns:
-          
-      - name: F
-        description: 'null'
-        columns:
-          
-      - name: C
-        description: 'null'
-        columns:
-          
-      - name: View Loaded
-        description: 'Called when a view is loaded.'
-        columns:
-          
+        description: '(not set)
+    - name: H
+      description: '(not set)'
+    - name: I
+      description: '(not set)'
+    - name: Options Opened
+      description: '(not set)'
+    - name: F
+      description: '(not set)'
+    - name: C
+      description: '(not set)'
+    - name: View Loaded
+      description: 'Called when a view is loaded.'
+    columns:
+    
       - name: name
         description: 'The view's name.
-      - name: Options Item Selected
-        description: 'null'
-        columns:
-          
+    - name: Options Item Selected
+      description: '(not set)'
+    columns:
+    
       - name: title
-        description: 'null
+        description: '(not set)
       - name: id
-        description: 'null
-      - name: J
-        description: 'null'
-        columns:
-          
-      - name: G
-        description: 'null'
-        columns:
-          
-      - name: B
-        description: 'null'
-        columns:
-          
+        description: '(not set)
+    - name: J
+      description: '(not set)'
+    - name: G
+      description: '(not set)'
+    - name: B
+      description: '(not set)'
