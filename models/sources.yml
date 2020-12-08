@@ -4,7 +4,7 @@ sources:
   - name: web_app
     tables:
       - name: test_event
-        description: 'A test event for RudderStack to be processed by dbt.'
+        description: 'A test event for RudderStack to be processed by dbt. (fixed typo!)'
         columns:
           - name: prop
             description: 'A test property description.'
