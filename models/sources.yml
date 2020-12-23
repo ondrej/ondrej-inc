@@ -4,7 +4,7 @@ sources:
   - name: ondrejs_dbt_integration_test_source
     tables:
       - name: test_event
-        description: ''
+        description: 'A dbt integration test event.'
         columns:
           - name: prop
             description: 'A test property description.'
