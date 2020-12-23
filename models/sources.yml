@@ -1,10 +1,10 @@
 version: 2
 
 sources:
-  - name: web_app
+  - name: ondrejs_dbt_integration_test_source
     tables:
       - name: test_event
-        description: 'A test event for RudderStack to be processed by dbt. (fixed typo!)'
+        description: 'A dbt integration test event. (3)'
         columns:
           - name: prop
             description: 'A test property description.'
